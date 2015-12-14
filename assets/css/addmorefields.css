@@ -1,0 +1,23 @@
+.text-center{
+	text-align: center;
+}
+.glyphicon{
+	padding-left:  5px;
+}
+.glyphicon:hover{
+	color: red;
+}
+/*.glyphicon{
+	color:#5cb85c;
+}*/
+.hidden{
+	display: none;
+}
+
+@media screen and (min-width: 768px) {
+	
+	#addMoreFieldsModal .modal-dialog  {width:900px;}
+
+}
+input[type='text'], select, textarea{background-color: #eee !important;}
+.even{ background: #eee;}

@@ -4,7 +4,7 @@ class Rb_CustomMetaBox_Post_Types {
 
   public function __construct( ){
 
-//          include_once( RB_CUSTOM_META_BOX_DIR . '/includes/vendor/cuztom/cuztom.php' );
+         include_once( RB_CUSTOM_META_BOX_DIR . '/includes/vendor/cuztom/cuztom.php' );
           add_action( 'init', array($this,'create_post_type') );
           $this->option_key = 'more_meta_fields';
           $this->data =  is_array(get_option($this->option_key))? get_option($this->option_key):array();
